@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.color{
+    color:blueviolet;    
+}
+.half-width{
+    width:40%;
+    float:left; 
+    margin-left: 5%;
+    padding-left: 2%;   
+}
+.half-width img{
+    width:50%;
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url("images/home-banner.png")
+}
+section{
+    height: 500px;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding:10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight:700;
+}
+ .boom{
+     color:chocolate;
+ }
+ .single{
+     box-shadow:10px 10px 40px gray;
+     border-radius: 20px;
+     height:80%;
+ }
+ 
+ #full{
+     border-left: 7px solid;
+     border-image:linear-gradient(black,white);
+     border-image-slice: 1;
+ }
+ #ball{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,orange);
+    border-image-slice: 1;
+
+ }
+ footer{
+    text-align:center ;
+ }
